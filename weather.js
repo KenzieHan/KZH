@@ -15,7 +15,7 @@ function onGeoOk(position) {
     });
 }
 function onGeoError() {
-  alert("날씨 정보를 허용합니다.");
+  alert("권한 허용 시 위치 및 날씨 정보를 제공합니다.");
 }
 
 navigator.geolocation.getCurrentPosition(onGeoOk, onGeoError);
