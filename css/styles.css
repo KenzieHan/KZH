@@ -3,14 +3,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
 
 *{
-	margin:0;	padding:0;
-	box-sizing:border-box;
-	font-family: 'Noto Sans KR', sans-serif;
-	font-size:1em;
+    margin:0;	padding:0;
+    box-sizing:border-box;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size:1em;
 }
 
 a{
-	color:inherit;	text-decoration:none;
+    color:inherit;	text-decoration:none;
 }
 
 .background {
@@ -42,43 +42,42 @@ body {
 }
 
 #todo-form{
-position:absolute;  top:250px;
-
+  position:absolute;  top:250px;
 }
+
 #todo-form input {
-    width:1000px;
-    font-size:2em;  text-align:center;
-    border:none;  
-    margin-left:150px;
-    
+  width:1000px;
+  font-size:2em;  text-align:center;
+  border:none;  
+  margin-left:150px;
 }
 
 #login-form {
-    position: absolute;  top: 170px;  left:35%;    
-    z-index: 1;
-    font-size:1.5em;   
+  position: absolute;  top: 170px;  left:35%;    
+  z-index: 1;
+  font-size:1.5em;   
 }
 
 #login-form input:first-child{
-    border:none;  
+  border:none;  
 }
 
 #greeting {
-    color:rgb(255, 255, 255);
-    text-align: center;  font-size: 50px;
+ color:rgb(255, 255, 255);
+ text-align: center;  font-size: 50px;
 }
 
 #weather{
-    color:rgba(255, 255, 255, 0.954);
-    position:absolute;  top:10px;  right:20px;
-    font-size:1.25em;
+ color:rgba(255, 255, 255, 0.954);
+ position:absolute;  top:10px;  right:20px;
+ font-size:1.25em;
 }
 
 #todo-list{
-    color:rgb(255, 255, 255);
-    margin-left:180px;
-    font-size:2em;
-    position:absolute;  top:300px;
+ color:rgb(255, 255, 255);
+ margin-left:180px;
+ font-size:2em;
+ position:absolute;  top:300px;
     
 }
 
